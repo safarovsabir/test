@@ -1,0 +1,53 @@
+html,
+body{
+  height: 100%;
+  user-select: none;
+}
+
+.container{
+  max-width: 599px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container_box{
+  max-width: 599px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.box{
+	background: #CCCCCC;
+	border-radius: 10px; 
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main{
+	border-radius: 10px; 
+	background-color: #eff0f1;
+	width: 100%;
+	flex: 1 1 auto;
+}
+
+.table_com{
+	border-radius: 10px; 
+	background-color: #eff0f1;
+	width: 100%;
+	flex: 1 1 auto;
+}
+
+.ment{
+	max-width: 599px;
+    width: 91%;
+    margin: 10px 35%;
+}
+
+.bottom{
+	max-width: 599px;
+    width: 91%;
+    margin: 10px 35%;
+}
+
+
